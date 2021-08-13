@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 	@CucumberOptions(
 			features = "src/test/resources",
 			glue = {"coading.steps"},
-			tags = {"@smokeTest"},
+			tags = {"@jenkinsTest"},
 			plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 			monochrome= true
 			)

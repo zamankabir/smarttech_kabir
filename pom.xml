@@ -108,7 +108,7 @@
 				<version>3.0.0-M3</version>
 				<configuration>
 				<includes>
-				<include>**/*RunnerZaman.java</include>
+				<include>**/*RunnerFile.java</include>
 				</includes>
 				</configuration>
 				<executions>
